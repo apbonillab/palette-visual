@@ -11,8 +11,8 @@ module.exports.compare = function(req,success,error){
             var execution = {
                 insertionDate: new Date(),
                 timestamp: timestamp,
-                beforeImgUri: `/Users/adriana.bonilla/Documents/u/palette/screenshot/image1.png`,
-                afterImgUri: `/Users/adriana.bonilla/Documents/u/palette/screenshot/image2.png`
+                beforeImgUri: `/Users/adriana.bonilla/Documents/u/palette/cypress/screenshots/paleta1.png`,
+                afterImgUri: `/Users/adriana.bonilla/Documents/u/palette/cypress/screenshots/paleta2.png`
             };
 
             const options = {

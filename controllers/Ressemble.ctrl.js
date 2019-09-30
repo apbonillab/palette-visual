@@ -4,7 +4,7 @@ var router = express.Router();
 var model = require('../services/execution.srv.js');
 
 router.post('/compare',function(req,res){
-    model.compare(data, function(info){
+    model.compare( function(info){
         res.statusCode = 200;
         res.send({ status: info });
     },function(err){
